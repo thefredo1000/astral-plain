@@ -25,10 +25,12 @@ title_screen.o: \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_fixed.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_string_view.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_vblank_callback_type.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_keypad.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_bg_palettes.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_ptr.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_optional.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_memory_alias.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_fixed.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_keypad.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_bg_palettes.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_config_log.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_log_backend.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_color.h \
@@ -47,11 +49,6 @@ title_screen.o: \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_characters_map_ref.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_power_of_two.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_character.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/../../common/include/common_variable_16x16_sprite_font.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_font.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_characters_map.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/build/bn_sprite_items_common_variable_16x16_font.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_item.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_builder.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_camera_ptr.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_fixed_point.h \
@@ -59,7 +56,15 @@ title_screen.o: \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_tiles_ptr.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_palette_ptr.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_affine_mat_ptr.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_double_size_mode.h
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_double_size_mode.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_random.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_limits.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/../../common/include/common_variable_16x16_sprite_font.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_font.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_characters_map.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/build/bn_sprite_items_common_variable_16x16_font.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_item.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/build/bn_sprite_items_dices.h
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/include/title_screen.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_core.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_span.h:
@@ -85,10 +90,12 @@ title_screen.o: \
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_fixed.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_string_view.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_vblank_callback_type.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_keypad.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_bg_palettes.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_ptr.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_optional.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_memory_alias.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_fixed.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_keypad.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_bg_palettes.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_config_log.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_log_backend.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_color.h:
@@ -107,11 +114,6 @@ title_screen.o: \
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_characters_map_ref.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_power_of_two.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_character.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/../../common/include/common_variable_16x16_sprite_font.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_font.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_characters_map.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/build/bn_sprite_items_common_variable_16x16_font.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_item.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_builder.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_camera_ptr.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_fixed_point.h:
@@ -120,3 +122,11 @@ title_screen.o: \
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_palette_ptr.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_affine_mat_ptr.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_double_size_mode.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_random.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_limits.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/../../common/include/common_variable_16x16_sprite_font.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_font.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_utf8_characters_map.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/build/bn_sprite_items_common_variable_16x16_font.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/include/bn_sprite_item.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano/games/astral-plain/build/bn_sprite_items_dices.h:
