@@ -1,2 +1,2 @@
-# astrail-plain
-Gameboy Advance game
+# Astral Plain
+Just another Gameboy Advance game. 
