@@ -31,9 +31,19 @@ namespace game
 
         bn::random rng = bn::random();
 
+        int delay = 0;
+
         while (!bn::keypad::a_pressed())
         {
-            dice_sprite.set_tiles(bn::sprite_items::dices.tiles_item().create_tiles(rng.get_int(6)));
+            if (delay >= 4)
+            {
+                dice_sprite.set_tiles(bn::sprite_items::dices.tiles_item().create_tiles(rng.get_int(6)));
+                delay = 0;
+            }
+            else
+            {
+                delay++;
+            }
             if (bn::keypad::a_pressed())
             {
                 break;
@@ -41,7 +51,7 @@ namespace game
             bn::core::update();
         }
 
-        while(1)
+        while (1)
         {
             bn::core::update();
         }
